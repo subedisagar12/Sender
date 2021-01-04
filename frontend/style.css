@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    background:rgb(96, 96, 245);
+    height:4rem;
+    box-sizing: border-box;
+    margin:0;
+    padding: 10px 4rem;
+    color: white;
+}
+
+
+.upload-section{
+    border:3px dotted rgb(96, 96, 245);
+    width:30em;
+    height:15em;
+    margin: 4em auto 1em auto;
+    text-align: center;
+   
+}
+
+
+
+.icon{
+    height:70px;
+    margin-top:3em;
+}
+
+.choose-file{
+    margin-top:20px;
+    color:blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+button{
+    margin-top: 20px;
+}
+
+#file-upload{
+    display: none;
+}
+
+.upload-shower{
+    box-sizing: border-box;
+    width: 100%;
+    height:50px;
+    background-color: #d6d4d4;
+    margin-top: 1.2rem;
+    padding-top: 1rem;
+    display: none;
+}
+
+
+.url-section{
+    
+    
+    width:30em;
+    height:2em;
+    margin: auto;
+    text-align: center;
+}
+.url{
+    border:1px solid rgb(96, 96, 245);
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+
+
+/* Footer Css */
+footer{
+    box-sizing: border-box;
+    background:rgb(96, 96, 245);
+    padding:2rem;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+   
+}
+footer .email{
+    margin-top:1em;
+}
+
+

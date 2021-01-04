@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sender</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="header">
+      <nav class="navbar">
+        <h2 class="app-brand">Sender</h2>
+        <small class="brand-motto">Share files with your friends</small>
+      </nav>
+    </div>
+
+    <section id="file-section">
+      <div class="upload-section">
+        <img src="./fileicon.svg" alt="File Icon" class="icon" />
+        <p class="choose-file">Browse and Choose a file</p>
+        <input type="file" id="file-upload" />
+
+        <div class="upload-shower">
+          <p class="upload-text">
+            Uploading...(<span class="percentage"></span>)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- URL section -->
+    
+    <section class="url-section">
+        <label for="url">Copy and Share this link to friend</label>
+  
+            <input type="text" disabled value="" class="url" id="url">
+        <button class="copy-btn">Copy Link</button>
+       
+        
+    </section>
+
+    <footer>
+      <h4>Developed by Sagar Subedi</h4>
+      <p class="email">
+        <strong>Email address</strong> : subedisagar12@gmail.com
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
